@@ -5,14 +5,19 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	double a, b, c, D, x1, x2;
-	cin >> a;
-	cin >> b;
-	cin >> c;
+	cin >> a >> b >> c;
 
 	if (a == 0)
 	{
-		x1 = -(c / b);
-		cout << "x = " << x1;
+		if (b == 0)
+		{
+			cout << "Действительных корней нет.";
+		}
+		else
+		{
+			x1 = -(c / b);
+			cout << "x = " << x1;
+		}
 	}
 	else
 	{
@@ -34,5 +39,4 @@ int main()
 			cout << "x2 = " << x2 << "\n";
 		}
 	}
-	return 0;
 }
