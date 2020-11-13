@@ -1,0 +1,22 @@
+import math
+
+choice = int(input())
+if choice == 1:
+    a = float(input())
+    b = float(input())
+    c = float(input())
+    p = (a + b + c) / 2
+    S = math.sqrt(p * (p - a) * (p - b) * (p - c))
+    print("S =", S)
+elif choice == 2:
+    Ax, Ay = map(float, input().split())
+    Bx, By = map(float, input().split())
+    Cx, Cy = map(float, input().split())
+    a = math.sqrt((Bx - Ax) * (Bx - Ax) + (By - Ay) * (By - Ay))
+    b = math.sqrt((Cx - Bx) * (Cx - Bx) + (Cy - By) * (Cy - By))
+    c = math.sqrt((Cx - Ax) * (Cx - Ax) + (Cy - Ay) * (Cy - Ay))
+    p = (a + b + c) / 2
+    S = math.sqrt(p * (p - a) * (p - b) * (p - c))
+    print("S =", S)
+else:
+    print("Ошибочный ввод")
