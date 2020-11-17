@@ -1,3 +1,4 @@
 ﻿  23.cpp
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\xtgmath.h(22,63): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
-  23.vcxproj -> D:\Programming\Practice\23\23\Debug\23.exe
+D:\Programming\Practice\23\C++\23.cpp(18,50): warning C4305:  '+=': truncation from 'double' to 'float'
+  23.vcxproj -> D:\Programming\Practice\23\C++\Debug\23.exe
