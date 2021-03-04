@@ -15,7 +15,7 @@ int main()
 	cout << "\n";
 
 	cout << "x" << "\t" << "sin(x)" << "\n";
-	for (float x = 0; x <= 3.1415/4; x += 3.1415/180)
+	for (float x = 0; x <= 3.141592/4; x += 3.141592/180)
 	{
 		cout << x << "\t" << setprecision(4) << sin(x, 5) << "\n";
 	}

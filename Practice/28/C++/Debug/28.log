@@ -1,0 +1,3 @@
+﻿  28.cpp
+D:\Programming\Practice\28\28\28.cpp(10,27): warning C4018:  '<=': signed/unsigned mismatch
+  28.vcxproj -> D:\Programming\Practice\28\28\Debug\28.exe

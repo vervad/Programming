@@ -11,9 +11,13 @@ int main()
 	if (choice == 1)
 	{
 		cin >> a >> b >> c;
-		double p = (a + b + c) / 2;
-		S = sqrt(p * (p - a) * (p - b) * (p - c));
-		cout << "S = " << S;
+		if (a < b + c) && (b < a + c) && (c < a + b)
+		{
+			double p = (a + b + c) / 2;
+			S = sqrt(p * (p - a) * (p - b) * (p - c));
+			cout << "S = " << S;
+		}
+		else cout << "Такого треугольника не существует.";
 	}
 	else if (choice == 2)
 	{
@@ -24,12 +28,13 @@ int main()
 		a = sqrt((Bx - Ax) * (Bx - Ax) + (By - Ay) * (By - Ay));
 		b = sqrt((Cx - Bx) * (Cx - Bx) + (Cy - By) * (Cy - By));
 		c = sqrt((Cx - Ax) * (Cx - Ax) + (Cy - Ay) * (Cy - Ay));
-		double p = (a + b + c) / 2;
-		S = sqrt(p * (p - a) * (p - b) * (p - c));
-		cout << "S = " << S;
+		if (a < b + c) && (b < a + c) && (c < a + b)
+		{
+			double p = (a + b + c) / 2;
+			S = sqrt(p * (p - a) * (p - b) * (p - c));
+			cout << "S = " << S;
+		}
+		else cout << "Такого треугольника не существует.";
 	}
-	else
-	{
-		cout << "Ошибочный ввод.";
-	}
+	else cout << "Ошибочный ввод.";
 }

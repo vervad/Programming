@@ -1,0 +1,6 @@
+﻿  25.cpp
+D:\Programming\Practice\25\25\25.cpp(110,20): warning C4018:  '<': signed/unsigned mismatch
+D:\Programming\Practice\25\25\25.cpp(111,21): warning C4018:  '<': signed/unsigned mismatch
+D:\Programming\Practice\25\25\25.cpp(118,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Programming\Practice\25\25\25.cpp(132,8): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
+  25.vcxproj -> D:\Programming\Practice\25\25\Debug\25.exe
